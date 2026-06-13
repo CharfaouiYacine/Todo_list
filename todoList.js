@@ -42,6 +42,7 @@ async function delete_task() {
     separator()
 }
 
+
 async function modify_task() {
     try {
         let id_num = Number(input('Enter the id of the task you want to modify: '))
